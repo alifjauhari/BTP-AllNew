@@ -1,0 +1,62 @@
+# Exported from Fuse 1.3.0
+
+newmtl Top
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd bytani_Top_diffuse.png
+map_Ks bytani_Top_specular.png
+bump bytani_Top_normal.png
+map_Ns bytani_Top_gloss.png
+
+newmtl Hair
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd bytani_Hair_diffuse.png
+map_Ks bytani_Hair_specular.png
+bump bytani_Hair_normal.png
+map_Ns bytani_Hair_gloss.png
+
+newmtl Body
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd bytani_Body_diffuse.png
+map_Ks bytani_Body_specular.png
+bump bytani_Body_normal.png
+map_Ns bytani_Body_gloss.png
+
+newmtl Bottom
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd bytani_Bottom_diffuse.png
+map_Ks bytani_Bottom_specular.png
+bump bytani_Bottom_normal.png
+map_Ns bytani_Bottom_gloss.png
+
+newmtl Shoes
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd bytani_Shoes_diffuse.png
+map_Ks bytani_Shoes_specular.png
+bump bytani_Shoes_normal.png
+map_Ns bytani_Shoes_gloss.png
+
