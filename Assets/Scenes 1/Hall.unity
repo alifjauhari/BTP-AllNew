@@ -33111,6 +33111,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Lobby
       objectReference: {fileID: 0}
+    - target: {fileID: 312767762173874673, guid: e550aa4734bc26d4ba2bf58679212d4b,
+        type: 3}
+      propertyPath: m_TagString
+      value: lobby
+      objectReference: {fileID: 0}
     - target: {fileID: 312767762225210706, guid: e550aa4734bc26d4ba2bf58679212d4b,
         type: 3}
       propertyPath: m_Name
@@ -33322,7 +33327,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1299487363}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b2f99ed44f99e149ac7741a55748814, type: 3}
+  m_Script: {fileID: 11500000, guid: db2f5fd0afb307b44ad7b53822d45a3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   trigger: {fileID: 1800581623}
@@ -64902,6 +64907,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 638511313}
+    - target: {fileID: 312767762173874673, guid: e550aa4734bc26d4ba2bf58679212d4b,
+        type: 3}
+      propertyPath: m_TagString
+      value: hall2
+      objectReference: {fileID: 0}
     - target: {fileID: 312767762225210706, guid: e550aa4734bc26d4ba2bf58679212d4b,
         type: 3}
       propertyPath: m_Name

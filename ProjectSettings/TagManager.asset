@@ -6,6 +6,9 @@ TagManager:
   tags:
   - door
   - GameMusic
+  - hall1
+  - hall2
+  - lobby
   layers:
   - Default
   - TransparentFX

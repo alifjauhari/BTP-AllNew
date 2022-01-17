@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class door : MonoBehaviour
+public class lobby : MonoBehaviour
 {
     public GameObject trigger;
  
@@ -11,13 +11,13 @@ public class door : MonoBehaviour
      }
  
  void OnTriggerEnter(Collider _col){
-         if (_col.gameObject.CompareTag ("door")) {
+         if (_col.gameObject.CompareTag ("lobby")) {
              trigger.SetActive (true);
                  }
          }
 
          void OnTriggerExit(Collider _col){
-         if (_col.gameObject.CompareTag ("door")) {
+         if (_col.gameObject.CompareTag ("lobby")) {
              trigger.SetActive (false);
          }
      }
