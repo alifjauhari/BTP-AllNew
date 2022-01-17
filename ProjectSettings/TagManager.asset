@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - door
+  - GameMusic
   layers:
   - Default
   - TransparentFX
