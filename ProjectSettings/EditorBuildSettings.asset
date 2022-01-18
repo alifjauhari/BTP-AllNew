@@ -9,15 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes 1/MainMenu.unity
     guid: b9f42ff103a2cc947b35376a7d1cf75a
   - enabled: 1
+    path: Assets/Scenes 1/Lobby.unity
+    guid: 150d16912afedc84f91a4742285c49c4
+  - enabled: 1
     path: Assets/Scenes 1/Hall.unity
     guid: 9f0af271d2a46174b8ac6e9e4e2c5559
   - enabled: 1
-    path: Assets/Zetcil/Controller/Game Controller/Loading/Scene/ZetLoadingScreen.unity
-    guid: f76ec0fd530892747a9f77a5aeed0da3
-  - enabled: 1
     path: Assets/Scenes 1/Hall2.unity
     guid: b8a20098bbee33a46ae2502b5f092268
-  - enabled: 1
-    path: Assets/Scenes 1/Lobby.unity
-    guid: 150d16912afedc84f91a4742285c49c4
   m_configObjects: {}
