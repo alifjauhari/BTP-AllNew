@@ -1,3 +1,15 @@
-﻿{
-	"name": "ExtendedButtons"
+{
+    "name": "ExtendedButtons",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [
+        "WebGL"
+    ],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
