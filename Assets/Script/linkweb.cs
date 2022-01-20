@@ -50,7 +50,7 @@ public class linkweb : MonoBehaviour
 	public void Web_A7_TRAINO()
 	{
 		#if !UNITY_EDITOR
-		openWindow("https://traino.id");
+		openWindow("https://www.traino.id/en");
 		#endif
 	}
 
