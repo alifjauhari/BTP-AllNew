@@ -8606,7 +8606,6 @@ GameObject:
   - component: {fileID: 290019624}
   - component: {fileID: 290019623}
   - component: {fileID: 290019622}
-  - component: {fileID: 290019621}
   m_Layer: 0
   m_Name: Button_WA
   m_TagString: Untagged
@@ -8633,18 +8632,6 @@ RectTransform:
   m_AnchoredPosition: {x: 89, y: 710}
   m_SizeDelta: {x: 210, y: 204}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &290019621
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 290019619}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e236f1b0c0faec4b8ccdf00650f7a42, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &290019622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8688,15 +8675,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 290019621}
-        m_MethodName: wa_A1_Soctravo
-        m_Mode: 1
+      - m_Target: {fileID: 1893856113}
+        m_MethodName: OpenURL
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://wa.me/62895708740706
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &290019623
@@ -8877,7 +8864,6 @@ GameObject:
   - component: {fileID: 300011433}
   - component: {fileID: 300011432}
   - component: {fileID: 300011431}
-  - component: {fileID: 300011430}
   m_Layer: 0
   m_Name: Button_Download
   m_TagString: Untagged
@@ -8904,18 +8890,6 @@ RectTransform:
   m_AnchoredPosition: {x: 93, y: -7}
   m_SizeDelta: {x: 203.8114, y: 216}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &300011430
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 300011428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 400a12679dd433543ac6cc46d82ac079, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &300011431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8959,15 +8933,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 300011430}
-        m_MethodName: dw_IRoasterbik
-        m_Mode: 1
+      - m_Target: {fileID: 1893856113}
+        m_MethodName: OpenURL
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://drive.google.com/uc?export=download&id=1tGYGR_PelH6OFGdN2SE9qPQDY6o47FdP
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &300011432
@@ -9680,7 +9654,6 @@ GameObject:
   - component: {fileID: 329219038}
   - component: {fileID: 329219037}
   - component: {fileID: 329219036}
-  - component: {fileID: 329219035}
   m_Layer: 0
   m_Name: Button_Email
   m_TagString: Untagged
@@ -9707,18 +9680,6 @@ RectTransform:
   m_AnchoredPosition: {x: 89, y: 226}
   m_SizeDelta: {x: 232, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &329219035
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 329219033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e57ac1a52e2328349addbbc5c71b9360, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &329219036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9762,15 +9723,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 329219035}
-        m_MethodName: email_A5_LINGGIS
-        m_Mode: 1
+      - m_Target: {fileID: 1893856113}
+        m_MethodName: OpenURL
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=linggis.co@gmail.com
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &329219037
@@ -11290,7 +11251,6 @@ GameObject:
   - component: {fileID: 387447593}
   - component: {fileID: 387447592}
   - component: {fileID: 387447591}
-  - component: {fileID: 387447590}
   m_Layer: 0
   m_Name: Button_WA
   m_TagString: Untagged
@@ -11317,18 +11277,6 @@ RectTransform:
   m_AnchoredPosition: {x: 89, y: 710}
   m_SizeDelta: {x: 210, y: 204}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &387447590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 387447588}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e236f1b0c0faec4b8ccdf00650f7a42, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &387447591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11372,15 +11320,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 387447590}
-        m_MethodName: wa_A9_CUBESTUDIO
-        m_Mode: 1
+      - m_Target: {fileID: 1893856113}
+        m_MethodName: OpenURL
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://wa.me/6281221531239
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &387447592
@@ -12602,7 +12550,6 @@ GameObject:
   - component: {fileID: 430759746}
   - component: {fileID: 430759745}
   - component: {fileID: 430759744}
-  - component: {fileID: 430759743}
   m_Layer: 0
   m_Name: Button_Ig
   m_TagString: Untagged
@@ -12629,18 +12576,6 @@ RectTransform:
   m_AnchoredPosition: {x: 89, y: -710}
   m_SizeDelta: {x: 220, y: 224}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &430759743
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 430759741}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f92b3e3a1be644946bd4886b5d359d43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &430759744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12684,15 +12619,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 430759743}
-        m_MethodName: ig_A1_SOCTRAVO
-        m_Mode: 1
+      - m_Target: {fileID: 1893856113}
+        m_MethodName: OpenURL
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://www.instagram.com/soc.trav/
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &430759745
@@ -14649,7 +14584,6 @@ GameObject:
   - component: {fileID: 475002342}
   - component: {fileID: 475002341}
   - component: {fileID: 475002340}
-  - component: {fileID: 475002339}
   m_Layer: 0
   m_Name: Button_Web
   m_TagString: Untagged
@@ -14676,18 +14610,6 @@ RectTransform:
   m_AnchoredPosition: {x: 89, y: -243}
   m_SizeDelta: {x: 220, y: 224}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &475002339
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 475002337}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fa6057ee28b6ae4aaf77f86f5a22044, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &475002340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14731,15 +14653,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 475002339}
-        m_MethodName: Web_A5_LINGGIS
-        m_Mode: 1
+      - m_Target: {fileID: 1893856113}
+        m_MethodName: OpenURL
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://linggis.com
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &475002341
@@ -18893,7 +18815,6 @@ GameObject:
   - component: {fileID: 656404033}
   - component: {fileID: 656404032}
   - component: {fileID: 656404031}
-  - component: {fileID: 656404030}
   m_Layer: 0
   m_Name: Button_Email
   m_TagString: Untagged
@@ -18920,18 +18841,6 @@ RectTransform:
   m_AnchoredPosition: {x: 89, y: 226}
   m_SizeDelta: {x: 232, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &656404030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 656404028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e57ac1a52e2328349addbbc5c71b9360, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &656404031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18975,15 +18884,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 656404030}
-        m_MethodName: email_A2_BLOKKAYU
-        m_Mode: 1
+      - m_Target: {fileID: 1893856113}
+        m_MethodName: OpenURL
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=driveblokkayumodular@gmail.com
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &656404032
@@ -19929,7 +19838,6 @@ GameObject:
   - component: {fileID: 696677864}
   - component: {fileID: 696677863}
   - component: {fileID: 696677862}
-  - component: {fileID: 696677861}
   m_Layer: 0
   m_Name: Button_Web
   m_TagString: Untagged
@@ -19956,18 +19864,6 @@ RectTransform:
   m_AnchoredPosition: {x: 89, y: -243}
   m_SizeDelta: {x: 220, y: 224}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &696677861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 696677859}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fa6057ee28b6ae4aaf77f86f5a22044, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &696677862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20011,15 +19907,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 696677861}
-        m_MethodName: Web_A1_SOCTRAVO
-        m_Mode: 1
+      - m_Target: {fileID: 1893856113}
+        m_MethodName: OpenURL
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://www.soctrav.com
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &696677863
@@ -23552,7 +23448,6 @@ GameObject:
   - component: {fileID: 851394391}
   - component: {fileID: 851394390}
   - component: {fileID: 851394389}
-  - component: {fileID: 851394388}
   m_Layer: 0
   m_Name: Button_Ig
   m_TagString: Untagged
@@ -23579,18 +23474,6 @@ RectTransform:
   m_AnchoredPosition: {x: 89, y: -710}
   m_SizeDelta: {x: 220, y: 224}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &851394388
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 851394386}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f92b3e3a1be644946bd4886b5d359d43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &851394389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23634,15 +23517,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 851394388}
-        m_MethodName: ig_A9_CUBESTUDIO
-        m_Mode: 1
+      - m_Target: {fileID: 1893856113}
+        m_MethodName: OpenURL
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://www.instagram.com/cubestudio.id/
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &851394390
@@ -25958,7 +25841,6 @@ GameObject:
   - component: {fileID: 954847335}
   - component: {fileID: 954847334}
   - component: {fileID: 954847333}
-  - component: {fileID: 954847332}
   m_Layer: 0
   m_Name: Button_WA
   m_TagString: Untagged
@@ -25985,18 +25867,6 @@ RectTransform:
   m_AnchoredPosition: {x: 89, y: 710}
   m_SizeDelta: {x: 210, y: 204}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &954847332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 954847330}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e236f1b0c0faec4b8ccdf00650f7a42, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &954847333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26040,15 +25910,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 954847332}
-        m_MethodName: wa_A5_LIGGIS
-        m_Mode: 1
+      - m_Target: {fileID: 1893856113}
+        m_MethodName: OpenURL
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://wa.me/6281386244550
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &954847334
@@ -26100,7 +25970,6 @@ GameObject:
   - component: {fileID: 967458150}
   - component: {fileID: 967458149}
   - component: {fileID: 967458148}
-  - component: {fileID: 967458147}
   m_Layer: 0
   m_Name: Button_Ig
   m_TagString: Untagged
@@ -26127,18 +25996,6 @@ RectTransform:
   m_AnchoredPosition: {x: 89, y: -710}
   m_SizeDelta: {x: 220, y: 224}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &967458147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 967458145}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f92b3e3a1be644946bd4886b5d359d43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &967458148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26182,15 +26039,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 967458147}
-        m_MethodName: ig_A3_IROASTERBIK
-        m_Mode: 1
+      - m_Target: {fileID: 1893856113}
+        m_MethodName: OpenURL
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://www.instagram.com/iroasterbik/
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &967458149
@@ -28021,7 +27878,6 @@ GameObject:
   - component: {fileID: 1033953547}
   - component: {fileID: 1033953546}
   - component: {fileID: 1033953545}
-  - component: {fileID: 1033953544}
   m_Layer: 0
   m_Name: Button_Ig
   m_TagString: Untagged
@@ -28048,18 +27904,6 @@ RectTransform:
   m_AnchoredPosition: {x: 89, y: -710}
   m_SizeDelta: {x: 220, y: 224}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1033953544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1033953542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f92b3e3a1be644946bd4886b5d359d43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1033953545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28103,15 +27947,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1033953544}
-        m_MethodName: ig_A2_BLOKKAYU
-        m_Mode: 1
+      - m_Target: {fileID: 1893856113}
+        m_MethodName: OpenURL
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://www.instagram.com/arsitekturkayumodular/
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1033953546
@@ -31046,7 +30890,6 @@ GameObject:
   - component: {fileID: 1160522870}
   - component: {fileID: 1160522869}
   - component: {fileID: 1160522868}
-  - component: {fileID: 1160522867}
   m_Layer: 0
   m_Name: Button_Email
   m_TagString: Untagged
@@ -31073,18 +30916,6 @@ RectTransform:
   m_AnchoredPosition: {x: 89, y: 226}
   m_SizeDelta: {x: 232, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1160522867
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1160522865}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e57ac1a52e2328349addbbc5c71b9360, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1160522868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31128,15 +30959,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1160522867}
-        m_MethodName: email_A9_CUBESTUDIO
-        m_Mode: 1
+      - m_Target: {fileID: 1893856113}
+        m_MethodName: OpenURL
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=info.me@cubestudio.id
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1160522869
@@ -32216,7 +32047,6 @@ GameObject:
   - component: {fileID: 1217533369}
   - component: {fileID: 1217533368}
   - component: {fileID: 1217533367}
-  - component: {fileID: 1217533366}
   m_Layer: 0
   m_Name: Button_Email
   m_TagString: Untagged
@@ -32243,18 +32073,6 @@ RectTransform:
   m_AnchoredPosition: {x: 89, y: 226}
   m_SizeDelta: {x: 232, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1217533366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1217533364}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e57ac1a52e2328349addbbc5c71b9360, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1217533367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32298,15 +32116,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1217533366}
-        m_MethodName: email_A1_SOCTRAVO
-        m_Mode: 1
+      - m_Target: {fileID: 1893856113}
+        m_MethodName: OpenURL
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=socialtraveling.pemudapeduli@gmail.com
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1217533368
@@ -33771,7 +33589,6 @@ GameObject:
   - component: {fileID: 1285213122}
   - component: {fileID: 1285213121}
   - component: {fileID: 1285213120}
-  - component: {fileID: 1285213119}
   m_Layer: 0
   m_Name: Button_Web
   m_TagString: Untagged
@@ -33798,18 +33615,6 @@ RectTransform:
   m_AnchoredPosition: {x: 89, y: -243}
   m_SizeDelta: {x: 220, y: 224}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1285213119
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1285213117}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fa6057ee28b6ae4aaf77f86f5a22044, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1285213120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33853,15 +33658,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1285213119}
-        m_MethodName: Web_A2_BLOKKAYU
-        m_Mode: 1
+      - m_Target: {fileID: 1893856113}
+        m_MethodName: OpenURL
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://blokkayumodular.com
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1285213121
@@ -34092,6 +33897,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: lobby
+      objectReference: {fileID: 0}
+    - target: {fileID: 312767762173874684, guid: e550aa4734bc26d4ba2bf58679212d4b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 312767762173874684, guid: e550aa4734bc26d4ba2bf58679212d4b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.67
       objectReference: {fileID: 0}
     - target: {fileID: 312767762225210706, guid: e550aa4734bc26d4ba2bf58679212d4b,
         type: 3}
@@ -34880,7 +34695,6 @@ GameObject:
   - component: {fileID: 1319424447}
   - component: {fileID: 1319424446}
   - component: {fileID: 1319424445}
-  - component: {fileID: 1319424444}
   m_Layer: 0
   m_Name: Button_Download
   m_TagString: Untagged
@@ -34907,18 +34721,6 @@ RectTransform:
   m_AnchoredPosition: {x: 93, y: -7}
   m_SizeDelta: {x: 203.8114, y: 216}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1319424444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1319424442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 400a12679dd433543ac6cc46d82ac079, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1319424445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34962,15 +34764,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1319424444}
-        m_MethodName: dw_Soctravo
-        m_Mode: 1
+      - m_Target: {fileID: 1893856113}
+        m_MethodName: OpenURL
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://drive.google.com/uc?export=download&id=1oAe2lq4fE75UBcMD6GlQq0ac4p-LhpoB
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1319424446
@@ -43897,7 +43699,6 @@ GameObject:
   - component: {fileID: 1645868730}
   - component: {fileID: 1645868729}
   - component: {fileID: 1645868728}
-  - component: {fileID: 1645868727}
   m_Layer: 0
   m_Name: Button_Web
   m_TagString: Untagged
@@ -43924,18 +43725,6 @@ RectTransform:
   m_AnchoredPosition: {x: 89, y: -243}
   m_SizeDelta: {x: 220, y: 224}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1645868727
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1645868725}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fa6057ee28b6ae4aaf77f86f5a22044, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1645868728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43979,15 +43768,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1645868727}
-        m_MethodName: Web_A3_IROASTERBIK
-        m_Mode: 1
+      - m_Target: {fileID: 1893856113}
+        m_MethodName: OpenURL
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://i-roasterbik.com
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1645868729
@@ -44969,7 +44758,6 @@ GameObject:
   - component: {fileID: 1670972678}
   - component: {fileID: 1670972677}
   - component: {fileID: 1670972676}
-  - component: {fileID: 1670972675}
   m_Layer: 0
   m_Name: Button_WA
   m_TagString: Untagged
@@ -44996,18 +44784,6 @@ RectTransform:
   m_AnchoredPosition: {x: 89, y: 710}
   m_SizeDelta: {x: 210, y: 204}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1670972675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1670972673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e236f1b0c0faec4b8ccdf00650f7a42, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1670972676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45051,15 +44827,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1670972675}
-        m_MethodName: wa_A2_BlokKayuModular
-        m_Mode: 1
+      - m_Target: {fileID: 1893856113}
+        m_MethodName: OpenURL
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://wa.me/6285725648628
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1670972677
@@ -45111,7 +44887,6 @@ GameObject:
   - component: {fileID: 1674894985}
   - component: {fileID: 1674894984}
   - component: {fileID: 1674894983}
-  - component: {fileID: 1674894982}
   m_Layer: 0
   m_Name: Button_Download
   m_TagString: Untagged
@@ -45138,18 +44913,6 @@ RectTransform:
   m_AnchoredPosition: {x: 93, y: -7}
   m_SizeDelta: {x: 203.8114, y: 216}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1674894982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1674894980}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 400a12679dd433543ac6cc46d82ac079, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1674894983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45193,15 +44956,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1674894982}
-        m_MethodName: dw_Blockwood
-        m_Mode: 1
+      - m_Target: {fileID: 1893856113}
+        m_MethodName: OpenURL
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://drive.google.com/uc?export=download&id=1QNWZmXPLSV4k7NVcW10qJKib0CDx4V4q
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1674894984
@@ -45982,7 +45745,6 @@ GameObject:
   - component: {fileID: 1713492593}
   - component: {fileID: 1713492592}
   - component: {fileID: 1713492591}
-  - component: {fileID: 1713492590}
   m_Layer: 0
   m_Name: Button_Download
   m_TagString: Untagged
@@ -46009,18 +45771,6 @@ RectTransform:
   m_AnchoredPosition: {x: 93, y: -7}
   m_SizeDelta: {x: 203.8114, y: 216}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1713492590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1713492588}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 400a12679dd433543ac6cc46d82ac079, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1713492591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46064,15 +45814,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1713492590}
-        m_MethodName: dw_Djavastraat
-        m_Mode: 1
+      - m_Target: {fileID: 1893856113}
+        m_MethodName: OpenURL
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://drive.google.com/uc?export=download&id=1pSnQONNpjqzXBEj8_0pFZPF9zhiZ2hSq
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1713492592
@@ -46329,7 +46079,6 @@ GameObject:
   - component: {fileID: 1721910195}
   - component: {fileID: 1721910194}
   - component: {fileID: 1721910193}
-  - component: {fileID: 1721910192}
   m_Layer: 0
   m_Name: Button_Email
   m_TagString: Untagged
@@ -46356,18 +46105,6 @@ RectTransform:
   m_AnchoredPosition: {x: 89, y: 226}
   m_SizeDelta: {x: 232, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1721910192
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1721910190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e57ac1a52e2328349addbbc5c71b9360, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1721910193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46411,15 +46148,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1721910192}
-        m_MethodName: email_A3_IROASTERBIK
-        m_Mode: 1
+      - m_Target: {fileID: 1893856113}
+        m_MethodName: OpenURL
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=admin@i-roasterbik.com
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1721910194
@@ -49527,7 +49264,6 @@ GameObject:
   - component: {fileID: 1884792312}
   - component: {fileID: 1884792311}
   - component: {fileID: 1884792310}
-  - component: {fileID: 1884792309}
   m_Layer: 0
   m_Name: Button_Ig
   m_TagString: Untagged
@@ -49554,18 +49290,6 @@ RectTransform:
   m_AnchoredPosition: {x: 89, y: -710}
   m_SizeDelta: {x: 220, y: 224}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1884792309
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1884792307}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f92b3e3a1be644946bd4886b5d359d43, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1884792310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49609,15 +49333,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1884792309}
-        m_MethodName: ig_A5_LINGGIS
-        m_Mode: 1
+      - m_Target: {fileID: 1893856113}
+        m_MethodName: OpenURL
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://www.instagram.com/linggis.co/
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1884792311
@@ -49894,6 +49618,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1299487362}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1893856113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893856112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c80488844348c99438af19d3bcec2af2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!20 &1893856114 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 6506270405802386042, guid: 479e05de9d58af54ca1c2ba414656501,
@@ -50624,7 +50360,6 @@ GameObject:
   - component: {fileID: 1921588414}
   - component: {fileID: 1921588413}
   - component: {fileID: 1921588412}
-  - component: {fileID: 1921588411}
   m_Layer: 0
   m_Name: Button_Download
   m_TagString: Untagged
@@ -50651,18 +50386,6 @@ RectTransform:
   m_AnchoredPosition: {x: 93, y: -7}
   m_SizeDelta: {x: 203.8114, y: 216}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1921588411
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1921588409}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 400a12679dd433543ac6cc46d82ac079, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1921588412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50706,15 +50429,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1921588411}
-        m_MethodName: dw_Linggis
-        m_Mode: 1
+      - m_Target: {fileID: 1893856113}
+        m_MethodName: OpenURL
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://drive.google.com/uc?export=download&id=1vTL5q3ZDw3nKQmxo3Jf0AuC6CU3c-4hT
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1921588413
@@ -57597,7 +57320,6 @@ GameObject:
   - component: {fileID: 2106769315}
   - component: {fileID: 2106769314}
   - component: {fileID: 2106769313}
-  - component: {fileID: 2106769312}
   m_Layer: 0
   m_Name: Button_Web
   m_TagString: Untagged
@@ -57624,18 +57346,6 @@ RectTransform:
   m_AnchoredPosition: {x: 89, y: -243}
   m_SizeDelta: {x: 220, y: 224}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2106769312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2106769310}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fa6057ee28b6ae4aaf77f86f5a22044, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2106769313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57679,15 +57389,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2106769312}
-        m_MethodName: Web_A9_CUBESTUDIO
-        m_Mode: 1
+      - m_Target: {fileID: 1893856113}
+        m_MethodName: OpenURL
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://cubestudio.id/
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2106769314
@@ -57739,7 +57449,6 @@ GameObject:
   - component: {fileID: 2112480119}
   - component: {fileID: 2112480118}
   - component: {fileID: 2112480117}
-  - component: {fileID: 2112480116}
   m_Layer: 0
   m_Name: Button_WA
   m_TagString: Untagged
@@ -57766,18 +57475,6 @@ RectTransform:
   m_AnchoredPosition: {x: 89, y: 710}
   m_SizeDelta: {x: 210, y: 204}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2112480116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2112480114}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e236f1b0c0faec4b8ccdf00650f7a42, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2112480117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57821,15 +57518,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2112480116}
-        m_MethodName: wa_A3_IROASTERBIK
-        m_Mode: 1
+      - m_Target: {fileID: 1893856113}
+        m_MethodName: OpenURL
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: https://wa.me/6285659858644
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2112480118
@@ -65870,6 +65567,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: hall2
+      objectReference: {fileID: 0}
+    - target: {fileID: 312767762173874684, guid: e550aa4734bc26d4ba2bf58679212d4b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.01
       objectReference: {fileID: 0}
     - target: {fileID: 312767762225210706, guid: e550aa4734bc26d4ba2bf58679212d4b,
         type: 3}
